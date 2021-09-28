@@ -1,5 +1,30 @@
-# **Telegram Bots на Python**
+# **Telegram bot для распознования картинок**
 
-*В репозитории "Telegram_bots" представлен код на языке Python для разработки Telegram bots.*
+В файле [Image-recognition](https://github.com/ElenaBalbukova/Telegram_bots/blob/master/Image-recognition.py) написан код для распознования картинок с переводом на русский язык.
 
-1. В папке "newsbot" представлен файл [newsbot](https://github.com/ElenaBalbukova/Telegram_bots/blob/newsbot/newsbot.py), в котором написан код для получения новостей с сайта  quote.rbc.ru в телеграм канал.
+## **Запуск**
+
+1. Установите программу [tesseract](https://github.com/tesseract-ocr/tesseract/releases/tag/4.1.1) для распознования картинок 
+
+    Запустите программу:
+    ```
+    tesseract imagename outputbase [-l lang] [--oem ocrenginemode] [--psm pagesegmode] [configfiles...]
+    ```
+2. В файле [Image-recognition](https://github.com/ElenaBalbukova/Telegram_bots/blob/master/Image-recognition.py) укажите:
+
+    API_TOKEN:
+    ```
+    API_TOKEN = 'your_token'
+    ```
+    Путь до программы tesseract:
+    ```
+    pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+    ```
+    Путь куда будет сохраняться перевод:
+    ```
+    r'C:\Users\Elena\Desktop\Программирование\Picture\\' + str(id_image)
+    ```
+3. Запустите Telegram bot командой:
+   ```
+   python3 Image-recognition.py
+   ```
