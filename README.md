@@ -6,5 +6,5 @@
    
 2.  В папке "[**imagebot**](https://github.com/ElenaBalbukova/Telegram_bots/tree/master/newsbot)" представлен файл [*imagebot*](https://github.com/ElenaBalbukova/Telegram_bots/blob/imagebot/imagebot.py), в котором написан код для распознования картинок с переводом на русский язык.
    
-3. В папке "[**weaterbot**](https://github.com/ElenaBalbukova/Telegram_bots/tree/master/weaterbot)" представлен файл [*weaterbot*](https://github.com/ElenaBalbukova/Telegram_bots/blob/weaterbot/weaterbot.py) написан код эхобота, который присылает прогноз погоды,  Пользователь отправляет боту город и получает в ответ состояние погоды, температуру и рекомендации как одеться.
-*Ссылочка на бота [*здесь*](https://t.me/PogodaFamilyBot).
+3. В папке "[**weaterbot**](https://github.com/ElenaBalbukova/Telegram_bots/tree/master/weaterbot)" представлен файл [*weaterbot*](https://github.com/ElenaBalbukova/Telegram_bots/blob/weaterbot/weaterbot.py) с кодом для эхобота, который присылает прогноз погоды. Пользователь отправляет боту город и получает в ответ состояние погоды, температуру и рекомендации как одеться.
+Ссылка на бота [*здесь*](https://t.me/PogodaFamilyBot).
