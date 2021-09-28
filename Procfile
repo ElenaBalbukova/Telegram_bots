@@ -1,0 +1,1 @@
+worker: python weater_bot.py
