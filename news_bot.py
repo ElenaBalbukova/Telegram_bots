@@ -3,7 +3,6 @@
 from requests import get, post
 from bs4 import BeautifulSoup
 
-
 url = 'https://quote.rbc.ru/?utm_source=topline'
 chat_id = "newsrbk0102"
 bot_token = "your_token"
