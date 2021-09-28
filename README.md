@@ -1,6 +1,6 @@
 # **Telegram bot для распознования картинок**
 
-В файле [Image-recognition](https://github.com/ElenaBalbukova/Telegram_bots/blob/master/Image-recognition.py) написан код для распознования картинок с переводом на русский язык.
+В файле [imagebot](https://github.com/ElenaBalbukova/Telegram_bots/blob/imagebot/imagebot.py) написан код для распознования картинок с переводом на русский язык.
 
 ## **Запуск**
 
@@ -10,7 +10,7 @@
     ```
     tesseract imagename outputbase [-l lang] [--oem ocrenginemode] [--psm pagesegmode] [configfiles...]
     ```
-2. В файле [Image-recognition](https://github.com/ElenaBalbukova/Telegram_bots/blob/master/Image-recognition.py) укажите:
+2. В файле [imagebot](https://github.com/ElenaBalbukova/Telegram_bots/blob/imagebot/imagebot.py) укажите:
 
     API_TOKEN:
     ```
@@ -26,5 +26,5 @@
     ```
 3. Запустите Telegram bot командой:
    ```
-   python3 Image-recognition.py
+   python3 imagebot.py
    ```
