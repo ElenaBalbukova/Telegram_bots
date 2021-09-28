@@ -1,6 +1,6 @@
 # **Telegram bot для получения новостей с сайта quote.rbc.ru**
 
-В файле [newsbot](https://github.com/ElenaBalbukova/Telegram_bots/blob/newsbot/news_bot.py) написан код для получения новостей с сайта  quote.rbc.ru в телеграм канал.
+В файле [newsbot](https://github.com/ElenaBalbukova/Telegram_bots/blob/newsbot/newsbot.py) написан код для получения новостей с сайта  quote.rbc.ru в телеграм канал.
 
 ### **Запуск**
 
@@ -9,7 +9,7 @@
    pip install -r requirements.txt
    ```
 
-**В файле [newsbot](https://github.com/ElenaBalbukova/Telegram_bots/blob/newsbot/news_bot.py) укажите следующие строки кода:**
+**В файле [newsbot](https://github.com/ElenaBalbukova/Telegram_bots/blob/newsbot/newsbot.py) укажите следующие строки кода:**
    
 1. Здесь вы можете указать любой сайт, с которого хотите получать новости:
    ```
