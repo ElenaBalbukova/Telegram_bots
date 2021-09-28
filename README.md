@@ -1,6 +1,6 @@
 # **Telegram bot для получения прогноза погоды**
 
-В файле [weaterbot](https://github.com/ElenaBalbukova/Telegram_bots/blob/weater_bot/Weater_bot/weater_bot.py) написан код простого эхобота, который присылает прогноз погоды, ссылочка на бота [здесь](https://t.me/PogodaFamilyBot). Пользователь отправляет боту город и получает в ответ состояние погоды, температуру и рекомендации как одеться.
+В файле [weaterbot](https://github.com/ElenaBalbukova/Telegram_bots/blob/weaterbot/weaterbot.py) написан код эхобота, который присылает прогноз погоды, ссылочка на бота [здесь](https://t.me/PogodaFamilyBot). Пользователь отправляет боту город и получает в ответ состояние погоды, температуру и рекомендации как одеться.
 
 ## **Запуск**
 
@@ -8,7 +8,7 @@
    ```
    pip install -r requirements.txt
    ```
-2. В файле [weaterbot](https://github.com/ElenaBalbukova/Telegram_bots/blob/weater_bot/Weater_bot/weater_bot.py) укажите API keys и API token:
+2. В файле [weaterbot](https://github.com/ElenaBalbukova/Telegram_bots/blob/weaterbot/weaterbot.py) укажите API keys и API token:
    ```python
    owm = OWM('API keys', config_dict)
    ```
